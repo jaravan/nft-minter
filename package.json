@@ -2,7 +2,7 @@
   "name": "nft-minter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jaravan.github.io",
+  "homepage": "https://jaravan.github.io/nft-minter/",
   "dependencies": {
     "-": "^0.0.1",
     "@alch/alchemy-web3": "^1.0.1",
