@@ -16,3 +16,7 @@ yarn
 ```bash
 npm update
 ```
+
+```bash
+npm install gh-pages — save-dev
+```
