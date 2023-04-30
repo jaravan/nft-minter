@@ -12,7 +12,7 @@
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.2.0.tgz"
   integrity sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==
 
-"@alch/alchemy-web3@^1.0.1":
+"@alch/alchemy-web3@^1.4.7":
   version "1.4.7"
   resolved "https://registry.npmjs.org/@alch/alchemy-web3/-/alchemy-web3-1.4.7.tgz"
   integrity sha512-7gmRdVDRLRT0PQnVHf4rizgGqHnQGeRJ0KuIjr0ewmMeXlRe8hJEIdEUTg9NjY9TC8jTJkOAiej5io7u9pppFQ==

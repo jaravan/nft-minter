@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  connectWallet,
-  getCurrentWalletConnected //import here
-} from "./utils/interact.js";
+import { connectWallet, getCurrentWalletConnected, mintNFT } from "./utils/interact.js";
 
 const Minter = (props) => {
 
@@ -21,7 +18,7 @@ const Minter = (props) => {
 
     addWalletListener(); 
   }, []);
-
+ 
   const connectWalletPressed = async () => { //TODO: implement
     const walletResponse = await connectWallet();
     setStatus(walletResponse.status);
@@ -54,8 +51,9 @@ const Minter = (props) => {
   }
   // Wallet functionality <=======
 
-  const onMintPressed = async () => { //TODO: implement
-    
+  const onMintPressed = async () => {
+      const { status } = await mintNFT(url, name, description);
+      setStatus(status);
   };
 
   return (
